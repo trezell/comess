@@ -6,7 +6,7 @@ body{
     border: 9px ridge;
   }
   /*****Header Section*****/
-  header{
+header{
     text-align:center;
     font-size: 1.8em;
     display: flex;
@@ -17,7 +17,7 @@ body{
     font-variant:small-caps;
     border-bottom: solid;
   }
-  header:before, header:after {
+header:before, header:after {
      background-color: #010D00;
      content: '\a0';
      flex-grow: 1;
@@ -25,19 +25,19 @@ body{
      position: relative;
      top: 0.77em;
    }
-  header:before{
+header:before{
     margin-right:15px;
   }
-  header:after{
+header:after{
     margin-left:15px;
   }
   /*****Biography Section*****/
-  .biography{
+.biography{
     max-width:500px;
     margin-left:150px;
   }
   
-  .biography h1:before, .biography h1:after {
+.biography h1:before, .biography h1:after {
      background-color: #010D00;
      content: '\a0';
      flex-grow: 1;
@@ -45,13 +45,13 @@ body{
      position: relative;
      top: 0.77em;
    }
-  .biography h1:before{
+.biography h1:before{
     margin-right:15px;
   }
-  .biography h1:after{
+.biography h1:after{
     margin-left:15px;
   }
-  .biography h1{
+.biography h1{
     background-color:#686868;
     text-align:center;
     font-family: 'Alkatra', cursive;
@@ -60,21 +60,21 @@ body{
     justify-content: center;
     border-radius: 10px;
   }
-  .biography h2{
+.biography h2{
     margin-left: 200px;
     font-family: 'Roboto Condensed', sans-serif;
   }
-  .biography a{
+.biography a{
     color: inherit;
   }
-  .biography p{
+.biography p{
     font-family: 'Raleway', sans-serif;
   }
-  .career{
+.career{
     border-top: dotted;
   }
   /*****Professional Section*****/
-  .professional{
+.professional{
     border-top:solid;
     border-bottom:solid;
     max-width:500px;
@@ -88,13 +88,13 @@ body{
      position: relative;
      top: 0.77em;
    }
-  .professional h1:before{
+.professional h1:before{
     margin-right:15px;
   }
-  .professional h1:after{
+.professional h1:after{
     margin-left:15px;
   }
-  .professional  h1{
+.professional  h1{
     background-color:#686868;
     text-align:center;
     font-family: 'Alkatra', cursive;
@@ -103,19 +103,19 @@ body{
     justify-content: center;
     border-radius: 10px;
   }
-  .professional h2{
+.professional h2{
     margin-left: 200px;
     font-family: 'Roboto Condensed', sans-serif;
   }
-  .professional p{
+.professional p{
     font-family: 'Raleway', sans-serif;
   }
   /*****Extra Section*****/
-  .extra{
+.extra{
     max-width:500px;
     margin-left:150px;
   }
-  .extra h1:before, .extra h1:after {
+.extra h1:before, .extra h1:after {
      background-color: #010D00;
      content: '\a0';
      flex-grow: 1;
@@ -123,13 +123,13 @@ body{
      position: relative;
      top: 0.77em;
    }
-  .extra h1:before{
+.extra h1:before{
     margin-right:15px;
   }
-  .extra h1:after{
+.extra h1:after{
     margin-left:15px;
   }
-  .extra h1{
+.extra h1{
     background-color:#686868;
     text-align:center;
     font-family: 'Alkatra', cursive;
@@ -138,17 +138,17 @@ body{
     justify-content: center;
     border-radius: 10px;
   }
-  .extra h2{
+.extra h2{
     margin-left: 200px;
     font-family: 'Roboto Condensed', sans-serif;
   }
-  .extra p{
+.extra p{
     font-family: 'Raleway', sans-serif;
   }
-  img{
+img{
 	max-width:100%;
   }
-  .bird figcaption{
+.bird figcaption{
     font-size:.9em;
     text-align: center;
   }
