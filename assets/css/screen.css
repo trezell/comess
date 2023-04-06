@@ -1,0 +1,154 @@
+/*Global Stuff*/
+body{
+    background-color:#c0c0c0;
+    max-width:800px;
+    margin: 100px;
+    border: 9px ridge;
+  }
+  /*****Header Section*****/
+  header{
+    text-align:center;
+    font-size: 1.8em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-weight:500;
+    font-variant:small-caps;
+    border-bottom: solid;
+  }
+  header:before, header:after {
+     background-color: #010D00;
+     content: '\a0';
+     flex-grow: 1;
+     height: 2.5px;
+     position: relative;
+     top: 0.77em;
+   }
+  header:before{
+    margin-right:15px;
+  }
+  header:after{
+    margin-left:15px;
+  }
+  /*****Biography Section*****/
+  .biography{
+    max-width:500px;
+    margin-left:150px;
+  }
+  
+  .biography h1:before, .biography h1:after {
+     background-color: #010D00;
+     content: '\a0';
+     flex-grow: 1;
+     height: 2.5px;
+     position: relative;
+     top: 0.77em;
+   }
+  .biography h1:before{
+    margin-right:15px;
+  }
+  .biography h1:after{
+    margin-left:15px;
+  }
+  .biography h1{
+    background-color:#686868;
+    text-align:center;
+    font-family: 'Alkatra', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  .biography h2{
+    margin-left: 200px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .biography a{
+    color: inherit;
+  }
+  .biography p{
+    font-family: 'Raleway', sans-serif;
+  }
+  .career{
+    border-top: dotted;
+  }
+  /*****Professional Section*****/
+  .professional{
+    border-top:solid;
+    border-bottom:solid;
+    max-width:500px;
+    margin-left:150px;
+  }
+  .professional h1:before, .professional h1:after {
+     background-color: #010D00;
+     content: '\a0';
+     flex-grow: 1;
+     height: 2.5px;
+     position: relative;
+     top: 0.77em;
+   }
+  .professional h1:before{
+    margin-right:15px;
+  }
+  .professional h1:after{
+    margin-left:15px;
+  }
+  .professional  h1{
+    background-color:#686868;
+    text-align:center;
+    font-family: 'Alkatra', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  .professional h2{
+    margin-left: 200px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .professional p{
+    font-family: 'Raleway', sans-serif;
+  }
+  /*****Extra Section*****/
+  .extra{
+    max-width:500px;
+    margin-left:150px;
+  }
+  .extra h1:before, .extra h1:after {
+     background-color: #010D00;
+     content: '\a0';
+     flex-grow: 1;
+     height: 2.5px;
+     position: relative;
+     top: 0.77em;
+   }
+  .extra h1:before{
+    margin-right:15px;
+  }
+  .extra h1:after{
+    margin-left:15px;
+  }
+  .extra h1{
+    background-color:#686868;
+    text-align:center;
+    font-family: 'Alkatra', cursive;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  .extra h2{
+    margin-left: 200px;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  .extra p{
+    font-family: 'Raleway', sans-serif;
+  }
+  img{
+	max-width:100%;
+  }
+  .bird figcaption{
+    font-size:.9em;
+    text-align: center;
+  }
